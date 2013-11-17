@@ -6,6 +6,8 @@ require_once( dirname(__FILE__) . '/setup.php' );
 // Load our shit in a class cause we're awesome
 class YourTheme {
 
+	
+
 	function __construct() {
 
 		// Constants
@@ -50,7 +52,7 @@ class YourTheme {
 
 		ob_start();
 
-		?><div style="font-size:12px;line-height:14px;color:#444;"><p><?php _e('You can have some custom text here.','nicks-base-theme');?></p></div><?php
+		?><div style="font-size:12px;line-height:14px;color:#444;"><p><?php _e('You can have some custom text here.','inhealth-child-theme');?></p></div><?php
 
 		return ob_get_clean();
 	}
@@ -83,4 +85,5 @@ class YourTheme {
 	}
 
 }
+
 new YourTheme;

@@ -6,3 +6,96 @@ Author URI: http://mobiusdesignlabs.com
 Version: 1.0
 Template: dms
 */
+
+/** Gray Section Block Areas **/
+.gray-section-area{
+	background-color: #cccccc;
+	border-color:#020a31;
+	border:2px 0 2px 0;
+}
+
+.dark-gray-section-area{
+	background-color:#999999;
+}
+
+.dark-blue-section-area{
+	background-color: #020a31;
+}
+
+.testimonial{
+	color:#363636;
+}
+
+/** Classes for Zero Padding **/
+
+.zp-bottom{padding-bottom: 0px;}
+
+.zp-top{padding-top: 0px;}
+
+.zp-left{padding-left:0px;}
+
+.zp-right{padding-right:0px;}
+
+
+/** Special Padding/Margin **/
+
+
+.slider{margin-top:-50px;}
+
+/** Maga Menu Styling **/
+#megaMenu ul.megaMenu{
+	
+	
+}
+
+/** Element Styling **/
+.services-banner{
+	margin-top:-11px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+/* Menu Items (LI) */
+#megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-mega {
+	
+  
+}
+
+/** Media Styling **/
+
+img.banner{
+	height: 50px;
+	width: auto;
+	max-width: 150px;
+}
+
+/** Top Logos Banner Styling **/
+
+#logos-banner ul li{  
+	list-style: none;
+	float:none;
+}
+
+/** Navigation Classes **/
+
+.nav-social{
+	padding:0px;
+	margin-bottom:-25px !important; 
+}
+
+/** Branding Section **/
+h2.branding{
+	font-size: 18px;
+	line-height: 18px;
+}
+h1.branding, a.branding{
+	line-height: 24px;
+	margin-bottom: -18px;
+	padding-top:0px;
+}
+
+#textboxuer0v6{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
