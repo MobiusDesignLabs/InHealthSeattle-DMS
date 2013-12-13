@@ -1,39 +1,3 @@
-/* This comment is visible in the output */
-// This comment is not visible in the output
-
-//Imports
-
-
-// From the Altered Nav Section
-.simplenav { 
-	text-align: center; 
-	padding: 15px 0;
-	li a{
-		font-size: .95em;
-		display: inline-block;
-		margin: 0 5px;
-		padding: 2px 4px;
-	}
-}
-
-/* Default Color variables */
-@ih-blue:           #020A31;
-@ih-orange:         #E06B26;
-@ih-blue-light:     lighten(@ih-blue, 10%);
-
-/* Social media color variables */
-@dribbble:          #EA4C89;
-@envelope:          #08CF90;   
-@facebook:          #3B5998;
-@googleplus:        #E14107;
-@instagram:         #517FA4;
-@linkedin:          #0181B2;
-@pinterest:         #CB2027;
-@rss:               #E5842F;
-@twitter:           #00ACED;
-@youtube:           #CD332D;
-
-
 .social-bar {
     a {
         margin-right: 0px; // Here in-case you wish to add margins
@@ -92,54 +56,5 @@
     .icon-youtube-play {
         background-color: @youtube;
     &:hover { background-color: lighten(@youtube, 10%); }
-    }
-}
-
-
-@media (max-width: 767px) {
-    .social-bar {
-        float: none;
-        text-align: center;
-    }
-
-    p.branding  {
-        text-align: center;
-    }
-}
-
-/* Color Classes */
-.ih-blue{
-    color: @ih-blue;
-}
-.ih-blue-light{
-    color: lighten(@ih-blue, 10%)
-}
-
-.ih-orange{
-    color: @ih-orange;
-}
-
-.ih-orange-light{
-    color: lighten(@ih-orange, 10%)
-}
-
-/* Section  Styling */
-.services-banner {
-    #gradient > .vertical (#333,#555);
-    border: 0px 5px 5px 5px;
-    margin-top:-11px;
-}
-
-#header{
-    p.banner {vertical-align: bottom;}
-    
-    h2.banner{
-        font-size: 18px;
-        line-height: 18px;
-    }
-    h1.banner, a.banner{
-        line-height: 24px;
-        margin-bottom: -18px;
-        padding-top:0px;
     }
 }
