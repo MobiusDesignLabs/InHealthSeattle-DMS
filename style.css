@@ -26,6 +26,16 @@ Template: dms
 	color:#363636;
 }
 
+/** Classes for Zero Padding **/
+
+.zp-bottom{padding-bottom: 0px;}
+
+.zp-top{padding-top: 0px;}
+
+.zp-left{padding-left:0px;}
+
+.zp-right{padding-right:0px;}
+
 
 /** Special Padding/Margin **/
 
@@ -83,10 +93,9 @@ h1.branding, a.branding{
 	margin-bottom: -18px;
 	padding-top:0px;
 }
-/*
+
 #textboxuer0v6{
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
-*/
